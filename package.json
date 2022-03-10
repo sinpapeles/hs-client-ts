@@ -1,14 +1,19 @@
 {
   "name": "hs-client-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
   "files": [
-    "./dist/*"
+    "dist"
   ],
+  "repository": "git://github.com/sinpapeles/hs-client-ts.git",
+  "homepage": "https://github.com/sinpapeles/hs-client-ts",
+  "bugs": {
+    "url": "https://github.com/sinpapeles/hs-client-ts/issues"
+  },
   "devDependencies": {
     "typescript": "^4.6.2"
   }

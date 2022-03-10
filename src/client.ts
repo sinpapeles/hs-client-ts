@@ -37,9 +37,7 @@ export class Client {
 
   private getHeaders() {
     const { apiKey } = this.options;
-    const headers: Record<string, string> = {
-      'Content-Type': 'application/json',
-    };
+    const headers: Record<string, string> = {};
 
     if (apiKey) {
       headers['Authorization'] = `Basic ${btoa(`x:${apiKey}`)}`;
